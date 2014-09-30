@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Merfyn manager",
+  "description": "",
+  "version": "1.0",
+
+  "permissions": [
+    "storage","clipboardRead","clipboardWrite"
+  ],
+  "browser_action": {
+    "default_icon": "resources/icon128.png",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["bootstrap.js"],
+    "persistent": true
+  }
+}

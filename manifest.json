@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+
+  "name": "Merfyn",
+  "description": "Youtube video queuer",
+  "version": "1.0",
+
+  "icons":{
+    //"16":"icon16.png",
+    //"48":"icon48.png",
+    "128":"resources/icon128.png"
+  },
+  "author":"Doron Sinai",
+
+  "page_action": {
+          "default_icon": {                    // optional
+            "12": "resources/icon12.png",           // optional
+            "38": "resources/icon38.png"            // optional
+          },
+          "default_title": "Merfyn"
+  },
+  "background": {
+    "scripts": ["bootstrap.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "tabs",
+    "storage",
+    "https://www.youtube.com/"
+  ]
+}
