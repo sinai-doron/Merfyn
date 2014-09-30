@@ -6,7 +6,7 @@
   "version": "1.0",
 
   "permissions": [
-    "storage","clipboardRead","clipboardWrite"
+    "storage","clipboardRead","clipboardWrite","http://code.jquery.com/"
   ],
   "browser_action": {
     "default_icon": "resources/icon128.png",
