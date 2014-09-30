@@ -4,18 +4,49 @@
     <title>Getting Started Extension's Popup</title>
     <script src="resources/jquery.js" type="text/javascript"></script>
     <style>
-      body {
-        min-width: 357px;
-        overflow-x: hidden;
-      }
+        a:link {
+            text-decoration: none;
+            color: #33AA33;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: #33AA33;
+        }
+        a:visited{
+            color: #33AA33;
+        }
+        .main {
+            clear:both;
+            width:373px;
+            text-overflow: ellipsis;
+        }
+        .thumbnail {
+            margin: 5px;
+            border: 2px solid black;
+            width: 75px;
+            height: 75px;
+            float:left;
+        }
 
-      img {
-        margin: 5px;
-        border: 2px solid black;
-        vertical-align: middle;
-        width: 75px;
-        height: 75px;
-      }
+        .title {
+            padding-top:45px;
+            height:25px;
+            font-family: arial, sans-serif;
+            font-size:18px;
+            color: #33AA33;
+            width: 270px;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+        .title-info{
+
+            height:15px;
+            font-family: arial, sans-serif;
+            font-size:14px;
+            color: #AA33AA;
+        }
     </style>
 
     <!--
