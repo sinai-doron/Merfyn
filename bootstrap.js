@@ -15,7 +15,7 @@ function getParamsFromUrl(url){
   return result;
 }
 
-var merfynExtensionId = "ijkohghlekpfjpdhglmnnefaehnkgdom";
+var merfynExtensionId = "acklokleolnjbcpkhhfngiikfkgaimdc";
 
 
 chrome.tabs.onUpdated.addListener(function(id, info, tab){

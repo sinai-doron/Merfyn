@@ -2,7 +2,7 @@
 // For simple requests:
 chrome.runtime.onMessageExternal.addListener(
   function(request, sender, sendResponse) {
-    if (sender.id !== "kipebdaihibhoikeghkabcglgdljffhe")
+    if (sender.id !== "njlkdlpoefhfljcbjlpbepjdblhjebfl")
       return;  // don't allow this extension access
     if (request.action === "is"){
       var is = false;
