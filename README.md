@@ -9,4 +9,4 @@ A chrome extensrion for saving youtube videos to watch later, it consists of 2 e
 Merfyn can be installed from the main folder
 Merfyn manager can be installed from the extension folder
 
-You will need to install both extension for complete work
+You will need to install both extension for complete work of Merfyn
